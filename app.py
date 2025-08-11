@@ -4,7 +4,7 @@ import pandas as pd
 st.set_page_config(layout='wide')
 st.title('Titanic Dashboard')
 
-df = pd.read_csv('titanic.csv')
+df = pd.read_csv('titani.csv')
 
 df['Embarked'] = df['Embarked'].fillna('Unkown')
 
