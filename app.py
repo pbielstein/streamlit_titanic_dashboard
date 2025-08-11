@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-set.set_page_config(page_title='Titanic Dashboard', layout='wide')
-#st.title('Titanic Dashboard')
+set.set_page_config(layout='wide')
+st.title('Titanic Dashboard')
 
 df = pd.read_csv('titanic.csv')
 
